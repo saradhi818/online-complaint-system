@@ -95,21 +95,31 @@ Install Dependencies:
 • Navigate into the cloned repository directory:
             
     cd online-complaint-system
-• Install the required dependencies by running the following commands:
+• Install the required dependencies by running the following commands:run commends one by one 
 
     cd frontend
 
     sudo apt-get install npm
 
-    cd ../backend
+    cd ..
+    
+    cd backend
 
      sudo apt-get install npm
 
 **Start the Development Server:**
 
-• To start the development server, execute the following command:
+• To start the development server, execute the following command:run commends one by one 
       
     npm start
+
+    cd..
+
+    cd frontend
+
+    npm start
+
+    
 • The online complaint registration and management app will be accessible at 
 
     http://localhost:3000
