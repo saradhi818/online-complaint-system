@@ -98,9 +98,13 @@ Install Dependencies:
 • Install the required dependencies by running the following commands:
 
     cd frontend
-    npm install
+
+    sudo apt-get install npm
+
     cd ../backend
-    npm install
+
+     sudo apt-get install npm
+
 **Start the Development Server:**
 
 • To start the development server, execute the following command:
@@ -109,6 +113,9 @@ Install Dependencies:
 • The online complaint registration and management app will be accessible at 
 
     http://localhost:3000
+
+
+**Demo**
 
 
 
