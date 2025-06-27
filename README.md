@@ -80,10 +80,15 @@ Member
 ***************
 📂 How to Run Locally
 
-#Execute the following command to clone the repository:
 
 
-git clone:git clone https://github.com/saradhi818/online-complaint-system.git
+**Execute the following command to clone the repository:**
+
+
+
+git clone:  
+       
+    git clone https://github.com/saradhi818/online-complaint-system.git
 
 Install Dependencies:
 
