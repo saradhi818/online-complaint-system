@@ -79,49 +79,34 @@ Member
 
 ***************
 📂 How to Run Locally
-1. Clone the Repository
-Clone the repository from GitHub:
 
-       git clone https://github.com/saradhi818/online-complaint-system.git
-
-       cd online-complaint-system
-
-3. Install Dependencies
-Backend:
-
- Navigate to the backend folder:
-
-     cd backend
- 
-Install backend dependencies:
-
-     npm install
- 
- Frontend:
- Navigate to the frontend folder:
-
-    cd ../frontend
+#Execute the following command to clone the repository:
 
 
- Install frontend dependencies:
+git clone:git clone https://github.com/saradhi818/online-complaint-system.git
 
+Install Dependencies:
+
+• Navigate into the cloned repository directory:
+            
+    cd online-complaint-system
+• Install the required dependencies by running the following commands:
+
+    cd frontend
     npm install
+    cd ../backend
+    npm install
+**Start the Development Server:**
+
+• To start the development server, execute the following command:
+      
+    npm start
+• The online complaint registration and management app will be accessible at 
+
+    http://localhost:3000
 
 
-3. Start the Backend Server
-Navigate to the backend folder and start the server:
 
-       cd backend
-       npm start
-
-
-5. Start the Frontend Development Server
-Navigate to the frontend folder and start the React app:
-
-        cd ../frontend
-        npm start
-
-The frontend will be accessible at http://localhost:3000.
 
 
 The user interface of the application looks
