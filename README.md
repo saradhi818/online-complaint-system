@@ -1,0 +1,183 @@
+# online-complaint-system
+**🏢 ResolveMate:**
+Online Complaint Registration and Management System
+ResolveMate is a web application designed to help users easily register, track, and resolve complaints. It connects customers with agents, offering a simple and user-friendly interface for both parties to interact and resolve issues efficiently.
+
+******************************
+
+🚀 Features
+👥 Customers/Users:
+
+📝 Register and Login: Users can create accounts to submit and track complaints.
+
+🖊️ Submit Complaints: Customers can enter complaint details such as issue type, description, and location.
+
+📊 Track Complaints: Users can track the status of their complaints in real-time.
+
+💬 Chat with Agents: Users can directly communicate with agents through a chat window for updates and clarifications.
+************
+👨‍💻 Agents:
+
+📝 Register and Login: Agents can create accounts to view and manage assigned complaints.
+
+🔄 Update Complaint Status: Agents can update the status of complaints (e.g., "In Progress," "Resolved").
+
+💬 Chat with Customers: Agents can chat with customers to resolve complaints.
+***********
+👑 Admin:
+
+
+🔑 Admin Login:
+Admins can log in to manage the platform.
+
+
+📝 Assign Complaints: 
+Admins can assign complaints to agents.
+
+
+👀 Monitor Complaints:
+Admins can track the status of complaints and ensure timely resolution.
+
+
+👥 Manage Users & Agents:
+Admins can add, update, or delete user and agent accounts.
+
+
+🛠️ Manage Platform:
+Admins can manage the overall platform policies and configurations.
+
+***********
+
+🛠️ Tech Stack
+
+
+Frontend: React.js, Material UI, Axios
+
+
+Backend: Node.js, Express.js, MongoDB
+
+
+Database: MongoDB (using Mongoose for object modeling)
+
+
+Authentication: JWT (JSON Web Token)
+
+
+***********
+
+👨‍💻 Team Members
+Name
+Role
+*****
+Team Lead
+*****
+Member
+*******
+Member
+*******
+Member
+
+***************
+📂 How to Run Locally
+1. Clone the Repository
+Clone the repository from GitHub:
+
+       git clone https://github.com/saradhi818/online-complaint-system.git
+
+       cd online-complaint-system
+
+3. Install Dependencies
+Backend:
+
+ Navigate to the backend folder:
+
+     cd backend
+ 
+Install backend dependencies:
+
+     npm install
+ 
+ Frontend:
+ Navigate to the frontend folder:
+
+    cd ../frontend
+
+
+ Install frontend dependencies:
+
+    npm install
+
+
+3. Start the Backend Server
+Navigate to the backend folder and start the server:
+
+       cd backend
+       npm start
+
+
+5. Start the Frontend Development Server
+Navigate to the frontend folder and start the React app:
+
+        cd ../frontend
+        npm start
+
+The frontend will be accessible at http://localhost:3000.
+
+
+The user interface of the application looks
+Landing Page
+
+
+![Landing Page](https://github.com/user-attachments/assets/b3302c51-bbf9-42dd-9d7f-0c1ee620e9fd)
+
+
+Login Page
+
+
+
+
+![Login Page](https://github.com/user-attachments/assets/e60851d4-673b-41da-9c41-41617b91aa63)
+
+Registration Page
+
+
+
+
+![Registration Page](https://github.com/user-attachments/assets/80b15933-bb45-4298-9f85-d91eaa121f3f)
+
+Common Dashboard For Complaint
+
+
+![Common Dashboard For Complaint](https://github.com/user-attachments/assets/65744e6d-0889-477e-8fdb-9cbe6b776ec7)
+
+
+
+Admin Dashboard
+
+
+![Admin Dashboard](https://github.com/user-attachments/assets/04bd80c4-0199-4de8-bfe4-cc2a3c6a37fd)
+
+
+
+Agent Dashboard 
+
+
+
+
+
+![Agent Dashboard](https://github.com/user-attachments/assets/58be9201-3217-44e1-92d2-758316c8a0ca)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
