@@ -69,7 +69,7 @@ Authentication: JWT (JSON Web Token)
 Name
 Role
 *****
-Team Lead
+Team Lead Alluri Partha Saradhi Reddy
 *****
 Member
 *******
