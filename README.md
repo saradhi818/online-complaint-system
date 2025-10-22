@@ -118,13 +118,17 @@ Install Dependencies:
 
 • To start the development server, execute the following command:run commends one by one 
       
-    npm start
+       # Start MongoDB service
+       sudo systemctl start mongod
+       
+       # Run Backend
+       cd backend
+       npx nodemon index.js
+       
+       # Run Frontend (in new tab)
+       cd ../frontend
+       npm start
 
-    cd..
-
-    cd frontend
-
-    npm start
 
     
 • The online complaint registration and management app will be accessible at 
