@@ -102,18 +102,17 @@ Install Dependencies:
 
 • Navigate into the cloned repository directory:
             
-    cd online-complaint-system
+    cd online-complaint-syst
 • Install the required dependencies by running the following commands:run commends one by one 
 
-    cd frontend
+    # Frontend
+    cd online-complaint-system/frontend
+    npm install
 
-    sudo apt-get install npm
+    # Backend
+    cd ../backend
+    npm install
 
-    cd ..
-    
-    cd backend
-
-     sudo apt-get install npm
 
 **Start the Development Server:**
 
