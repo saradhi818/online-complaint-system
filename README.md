@@ -73,6 +73,18 @@ Team Lead - Alluri Partha Saradhi Reddy
 *****
 Member - BHARGAVA REDDY RAMIREDDY
 
+
+## 🧠 Core Requirements
+
+| Tool                          | Purpose                                                  | Windows Installation                                                                                                   | Kali / Linux Installation                                                                                                 |
+| ----------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Node.js & npm**            | Runs backend (JS runtime) and manages packages.          | [Download Node.js](https://nodejs.org/en/download/) → install and verify with:<br>`node -v` and `npm -v`              | `sudo apt update && sudo apt install -y nodejs npm`                                                                       |
+| **Express.js**               | Web-server framework for Node.js. Handles routes & APIs. | Open CMD → `npm install express`                                                                                       | Open Terminal → `npm install express`                                                                                     |
+| **MongoDB Community Server** | NoSQL database for storing users & complaints.           | [Download MongoDB](https://www.mongodb.com/try/download/community)<br>After install → service starts automatically. | `wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc \| sudo apt-key add -`<br>`echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/debian bullseye/mongodb-org/6.0 main" \| sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list`<br>`sudo apt update && sudo apt install -y mongodb-org`<br>`sudo systemctl start mongod && sudo systemctl enable mongod` |
+| **React.js**                 | Builds the frontend (UI).                                | In CMD: `npx create-react-app frontend`                                                                                | In Terminal: `npx create-react-app frontend`                                                                              |
+| **Git**                      | Version control / clone repository.                      | [Download Git](https://git-scm.com/downloads)                                                                         | `sudo apt install git -y`                                                                                                 |
+| **Code Editor**              | Development environment (VS Code recommended).           | [Download VS Code](https://code.visualstudio.com/download)                                                            | `sudo snap install code --classic`                                                                                        |
+
 ***************
 📂 How to Run Locally
 
