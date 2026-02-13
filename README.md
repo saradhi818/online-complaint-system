@@ -71,7 +71,7 @@ Role
 *****
 Team Lead - Alluri Partha Saradhi Reddy
 *****
-Member - BHARGAVA REDDY RAMIREDDY
+Member - Rapuru Manoj Kumar Reddy
 
 
 ## 🧠 Core Requirements
